@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     contexto.beginPath();
     contexto.moveTo(linha.posAnterior.x, linha.posAnterior.y);
     contexto.lineTo(linha.pos.x, linha.pos.y);
-    contexto.stroke();s
+    contexto.stroke();
   }
 
   tela.onmousedown = (evento) => {pincel.ativo = true};
